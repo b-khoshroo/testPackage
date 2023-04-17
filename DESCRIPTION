@@ -1,13 +1,15 @@
 Package: testPackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Testing package-making
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Babak
+Maintainer: Babakr <b.khoshroo@yahoo.com>
+Description: It is a test package.
+Imports:
+  kableExtra
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/b-khoshroo/testPackage
 BugReports: https://github.com/b-khoshroo/testPackage/issues
+RoxygenNote: 7.2.3
